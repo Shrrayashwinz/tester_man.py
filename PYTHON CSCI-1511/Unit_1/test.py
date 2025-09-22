@@ -1,15 +1,12 @@
-#Have a user input seven random numbers
-num = []
+#conditionals
 
-for i in range(7):
-    num = int(input(range(1, 10006)))
+num = 25
 
-    print("Enter the numbers:", num, num, num, num, num, num, num)
+if num < 25:
+    print("NUmber is less than 25")
+elif num > 25:
+    print("Number is bigger than 25")
+    
 
-    #Determine the max min and average of the numbers
-    num.append(num)
-    maximum = max(num)
-    minimum = min(num)
-    average = sum(num) / len(num)
 
 
