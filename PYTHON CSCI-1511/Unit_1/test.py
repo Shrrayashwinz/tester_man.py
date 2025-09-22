@@ -1,11 +1,15 @@
 #conditionals
 
-num = 25
+current_temp = 45
 
-if num < 25:
-    print("NUmber is less than 25")
-elif num > 25:
-    print("Number is bigger than 25")
+raining = True
+
+if (current_temp < 50) and raining:
+    print ("Please get a coat")
+elif raining:
+    print ("Wear a coat as it is raining")
+    
+
     
 
 
